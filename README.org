@@ -1,0 +1,17 @@
+* MiseEnPlace
+
+This repo is a parent repo to install all MiseEnPlace configurations. Be warned
+that this will override all configurations managed by MiseEnPlace and archive
+any current configurations. Note that this is currently a linux only setup with
+greatest support for Arch Linux. The intensions of this package are for me to be
+able to install all of my configurations on a new system. You can install via
+the AUR or simply run the following lines of code in your terminal to get
+started:
+
+#+BEGIN_SRC bash
+wget https://raw.githubusercontent.com/jordans1882/mise_en_place/master/mise_en_place-installer.sh
+chmod +x mise_en_place-installer.sh
+./mise_en_place-installer.sh
+#+END_SRC
+
+
